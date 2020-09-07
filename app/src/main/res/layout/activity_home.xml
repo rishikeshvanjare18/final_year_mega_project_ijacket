@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:orientation="vertical"
+    android:background="@android:color/holo_orange_light"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/gpsTacking"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="50"
+            android:background="@android:drawable/ic_menu_mylocation"
+            android:backgroundTint="@android:color/holo_orange_dark"
+            android:backgroundTintMode="add"
+            android:onClick="gpsmapping"
+            android:padding="10sp"
+            android:text="GPS"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="50"
+            android:background="@android:color/white"
+            android:onClick="viewWebsite"
+            android:padding="10sp"
+            android:text="visit website"
+            android:textSize="40sp"
+            android:backgroundTint="@android:color/holo_blue_bright"
+            />
+
+    </LinearLayout>
+</LinearLayout>
